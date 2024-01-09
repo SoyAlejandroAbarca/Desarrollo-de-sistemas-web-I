@@ -1,0 +1,53 @@
+CODIGO DE LA PAGINA PRINCIPAL DE LA ACTIVIDAD 1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>Captura de datos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="dive">
+<h1>CAPTURA DE DATOS PERSONALES</h1>
+<br>
+<h2>INGRESA LOS DATOS QUE SE TE PIDEN</h2>
+<br>
+<p>Mi primer encuesta</p>
+<hr>
+<label for="name">Nombre</label>
+<input type="text" name="Name" id="Name" value="Ingresa tu nombre"/><hr>
+<label for="age">Edad</label>
+<input type="number" name="age" id="age" value="Ingresa tu edad"/><hr>
+<label for="name">Ciudad</label>
+<input type="text" name="city" id="city" value="Ingresa tu ciudad"/><hr>
+<label for="hobbie">Pasatiempo</label>
+<input type="text" name="hobbie" id="hobbie" value="Ingresa tu pasatiempo"/><hr>
+<a href="resultados.html">
+    <button type="button" a href>¡Ingresamos Datos!</button>
+</a>
+</div>
+</body>
+</html>
+
+
+CODIGO DE LA SEGUNDA PAGINA
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>¡RESULTADO DE DATOS!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dive2">
+  <h1>Resultados</h1>  
+  <center>
+    <img src="chichi.jpg" alt="CHICHICHI">
+  </center>
+  <br>
+  <h2>¡Bien hecho!</h2>
+</div>
+</body>
+</html>
